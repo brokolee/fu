@@ -1,0 +1,11 @@
+package adhoc4;
+
+public class ToyTest {
+
+    public static void main(String[] args) {
+        ToyFactory Fabrik = new ToyFactory();
+        Toy Rubby = Fabrik.getToy("rubberduck"); 
+        Rubby.print();
+    }
+
+}

@@ -1,0 +1,10 @@
+package adhoc3;
+
+public class utilArrays {
+
+    public static void main(String[] args) {
+        int[] utilArray = new Integer[2, 3, 4,];
+
+    }
+
+}

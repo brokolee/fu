@@ -1,0 +1,8 @@
+package adhoc2;
+
+public class TestFraction {
+public static void main(String[] args) {
+   Fraction FractionObj =  new Fraction(3, 4);
+    FractionObj.toString();
+}
+}

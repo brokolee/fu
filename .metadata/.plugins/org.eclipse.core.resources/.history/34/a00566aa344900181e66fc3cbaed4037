@@ -1,0 +1,17 @@
+package EA2;
+
+public class RingpufferTest {
+public static void main(String[] args) {
+    Ringpuffer ring = new Ringpuffer(5);
+    
+    ring.insert("erster");
+    ring.insert("zweiter");
+    ring.insert("dritter");
+    ring.insert("vierter");
+    ring.insert("fünfter");
+    ring.insert("sechster");
+    
+    ring.print();
+    
+}
+}

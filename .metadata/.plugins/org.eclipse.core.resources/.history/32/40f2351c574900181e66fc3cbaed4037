@@ -1,0 +1,5 @@
+package EA2;
+
+public interface Car {
+
+}

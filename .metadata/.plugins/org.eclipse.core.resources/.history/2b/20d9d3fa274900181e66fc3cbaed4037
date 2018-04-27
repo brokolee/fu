@@ -1,0 +1,100 @@
+a)	Welche Datentypen werden verwendet? Welche davon sind Basisdatentypen?
+
+	Primitive-/Basisdatentypen: int, char	
+	Datentypen: String, Object (Da String ein Datentyp ist, aber kein Basisdatentyp und String eine Unterklasse von Object ist vermute ich das Object auch ein Datentyp ist auch wenn ein Objekt nicht zwangsläufig einen Wert halten muss)
+	
+	
+	
+b)	Welche Konstanten enthält das Programm?
+
+	Char c;
+	
+	
+c)	Welche benannten Konstanten sind enthalten?
+
+	Char c;
+	
+	
+d)	Welche Variablendeklarationen nden Sie?
+
+	x = 42;
+	y = foo;
+	
+	
+e) 	Welche formalen Parameter können Sie entdecken?
+
+	Foo(int x)
+	void m(Foo foo
+	void m(String foo)
+	
+	
+f) 	Welche Attribute sind zu finden? Unterscheiden Sie in Objekt- und Klassenattribute.
+	
+	private int x;
+	Object y;
+		
+	
+g)  Welche Konstruktoren sind zu finden?
+	
+	Foo() {
+	x = 42;
+	}	
+	
+	Bar() {
+	y = new Object();
+	}
+	
+	Object z() {
+	return new String();
+	}
+	
+	
+h)  Welche Methoden sind zu finden? Unterscheiden Sie in Objekt- und Klassenmethoden.
+	
+	Objektmethoden:
+	
+	Foo(int x) {
+	this.x = x;
+	}
+	
+	void m(Foo foo) {
+	y = new Object();
+	}
+	
+	void m(String foo) {
+	y = foo;
+	}
+	
+	////////////////////
+	
+	Klassenmethoden: keine
+	
+	Klassenmethoden werden mit 'static' deklariert und können aufgerufen werden ohne vorher 
+	ein Objekt der zugehörigen Klasse zu erzeugen.
+	
+
+i)  Wo finden Überladungen statt?
+
+	Foo(int x) {
+	this.x = x;
+	}
+	
+	Foo() {
+	x = 42;
+	}
+	
+	////////////////
+	
+	void m(Foo foo) {
+	y = new Object();
+	}
+	
+	void m(String foo) {
+	y = foo;
+	}
+	
+	
+j)  In welchen Methoden kann bzw. könnte man auf das Attribut y zugreifen?
+
+	In den Methoden innerhalb der Klasse 'Bar'.
+	

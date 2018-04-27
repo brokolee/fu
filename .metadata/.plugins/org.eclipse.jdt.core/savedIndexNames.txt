@@ -1,0 +1,22 @@
+INDEX VERSION 1.130+C:\Users\aaron\eclipse\kurs1618\workspace\.metadata\.plugins\org.eclipse.jdt.core
+2963393687.index
+2471744762.index
+2786941093.index
+4130185420.index
+2588222187.index
+2463189197.index
+3970068113.index
+3579125070.index
+1807708888.index
+1183509012.index
+2380175872.index
+3749952430.index
+517976189.index
+1289034503.index
+1162979526.index
+702273205.index
+2685349964.index
+2471808674.index
+1211430351.index
+2631035484.index
+1519230188.index

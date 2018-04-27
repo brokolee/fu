@@ -1,0 +1,16 @@
+package adhoc2;
+
+public class Fraction {
+   private Integer numerator;
+   private Integer denominator;
+   
+   public Fraction(int numeratorC, int denominatorC) throws IllegalArgumentException {
+           this.numerator = numeratorC;
+           if (denominatorC == 0) {
+               throw new IllegalArgumentException;
+           }else {
+           this.denominator = denominatorC;}
+       
+   }
+    
+}

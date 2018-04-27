@@ -1,0 +1,22 @@
+package adhoc9;
+
+public class WeighableObjects {
+    public class Animal implements Weighable {
+        public double getWeight() {
+            return 42.5;
+        }
+    }
+
+    public class Apple implements Weighable {
+        public double getWeight() {
+            return 5;
+        }
+    }
+
+    public class Hammer implements Weighable {
+        public double getWeight() {
+            return 22;
+        }
+    }
+
+}

@@ -1,0 +1,13 @@
+package adhoc9;
+
+
+import adhoc9.WeighableObjects.*;
+
+public class MaxWeightContainerTest {
+    public static void main(String[] args) {
+        MaxWeightContainer mwc = new MaxWeightContainer();
+        Animal animal = new Animal();
+        Apple apple = new Apple();
+        Hammer hammer = new Hammer();
+    }
+}

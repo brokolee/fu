@@ -1,0 +1,16 @@
+package adhoc9;
+import adhoc9.Weighable;
+
+public class MaxWeightContainer {
+    private Weighable heaviest;
+    
+    public void store(Weighable element) {
+        if (heaviest == null || element.getWeight() > heaviest.getWeight()) {
+            heaviest = element;
+        }
+    }
+    
+    public Weighable getHeaviest() {
+        return heaviest;
+    }
+}

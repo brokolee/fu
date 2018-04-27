@@ -1,0 +1,19 @@
+package SA4;
+
+public class Tree {
+
+    Object value;
+    Tree[] children;
+    
+    public Tree(Object value, int children) {
+        this.value = value;
+        this.children = new Tree[children];
+    }
+    
+    public static void main(String[] args) {
+        Tree tree1 = new Tree(null, 2);
+        Tree tree2 = new Tree(null, 2);
+        tree2.children[0] = new Tree(children, 2);
+    }
+    
+}

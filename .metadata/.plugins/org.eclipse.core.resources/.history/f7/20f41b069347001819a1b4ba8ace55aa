@@ -1,0 +1,18 @@
+package adhoc4;
+import adhoc4.Toy;
+
+public class ToyFactory {
+
+Toy getToy(String toyName) {
+    switch (toyName) {
+    case "rubberduck":
+        return new RubberDuck();
+    case "teddy":
+        return new TeddyBear();
+       case "car":
+           return new PlasticCar();
+    default:
+       return new Toy();
+    }
+}}
+ 
