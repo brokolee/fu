@@ -1,7 +1,0 @@
-package adhoc9;
-interface Weighaable() {
-    double getWeight();
-public class Interfaces {
-
-}
-}

@@ -1,7 +1,0 @@
-//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
-ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.jdt.ui.presentation
-ColorsAndFontsPreferencePage.selectedElement=Torg.eclipse.ui.presentation.default
-PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
-RUN_IN_BACKGROUND=false
-com.genuitec.eclipse.themes.dark.org.eclipse.ui.workbench.INACTIVE_TAB_SELECTED_TEXT_COLOR=255,255,255
-eclipse.preferences.version=1
